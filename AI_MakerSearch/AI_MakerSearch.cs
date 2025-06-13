@@ -10,6 +10,7 @@ namespace AI_MakerSearch
 {
     [BepInProcess("AI-Shoujo")]
     [BepInProcess("AI-Syoujyo")]
+    [BepInDependency(Sideloader.Sideloader.GUID, Sideloader.Sideloader.Version)]
     [BepInPlugin(nameof(AI_MakerSearch), nameof(AI_MakerSearch), VERSION)]
     public class AI_MakerSearch : BaseUnityPlugin
     {
