@@ -9,6 +9,7 @@ using UnityEngine;
 namespace HS2_MakerSearch
 {
     [BepInProcess("HoneySelect2")]
+    [BepInDependency(Sideloader.Sideloader.GUID, Sideloader.Sideloader.Version)]
     [BepInPlugin(nameof(HS2_MakerSearch), nameof(HS2_MakerSearch), VERSION)]
     public class HS2_MakerSearch : BaseUnityPlugin
     {
