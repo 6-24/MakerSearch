@@ -12,6 +12,7 @@ using ChaCustom;
 namespace EC_MakerSearch
 {
     [BepInProcess("EmotionCreators")]
+    [BepInDependency(Sideloader.Sideloader.GUID, Sideloader.Sideloader.Version)]
     [BepInPlugin(nameof(EC_MakerSearch), nameof(EC_MakerSearch), VERSION)]
     public class EC_MakerSearch : BaseUnityPlugin
     {
