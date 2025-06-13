@@ -13,6 +13,7 @@ namespace KKS_MakerSearch
 {
     [BepInProcess("KoikatsuSunshine")]
     [BepInProcess("KoikatsuSunshineTrial")]
+    [BepInDependency(Sideloader.Sideloader.GUID, Sideloader.Sideloader.Version)]
     [BepInPlugin(nameof(KKS_MakerSearch), nameof(KKS_MakerSearch), VERSION)]
     public class KKS_MakerSearch : BaseUnityPlugin
     {
